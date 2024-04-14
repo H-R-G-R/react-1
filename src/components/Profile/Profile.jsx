@@ -5,9 +5,9 @@ const Profile = ({ name, tag, location, image, stats }) => {
     <div className={css.wrapperProfile}>
       <div className={css.infoProfile}>
         <img src={image} alt={name} width={180} height={180} />
-        <p>{name}</p>
-        <p>@{tag}</p>
-        <p>{location}</p>
+        <p className={css.name}>{name}</p>
+        <p className={css.tag}>@{tag}</p>
+        <p className={css.location}>{location}</p>
       </div>
 
       <ul>

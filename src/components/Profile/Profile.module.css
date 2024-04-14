@@ -1,14 +1,45 @@
-/* .wrapperProfile {
-  position: relative;
+.wrapperProfile {
   width: 500px;
-  padding: 40px auto;
-  padding-bottom: 100px;
+  padding: 40px;
 
-  background-color: white;
   border-radius: 20px;
   border: 3px solid black;
   overflow: hidden;
+
+  margin-bottom: 100px;
 }
 
 .infoProfile {
-} */
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.infoProfile img {
+  border-radius: 50%;
+  background: black;
+  margin-bottom: 10px;
+}
+.infoProfile p {
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: #122236;
+  font-size: 25px;
+}
+.tag {
+  margin-top: 0;
+  color: #768696;
+  font-size: 20px;
+}
+
+.location {
+  margin: 0;
+  color: #768696;
+  font-size: 20px;
+}
