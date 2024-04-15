@@ -1,4 +1,5 @@
 // COMPONENTS
+import TitleTask from './TitleTask/TitleTask';
 import Profile from './Profile/Profile';
 import FriendList from './FriendList/FriendList';
 import TransactionHistory from './TransactionHistory/TransactionHistory';
@@ -13,6 +14,7 @@ import transactions from '../data/transactions.json';
 const App = () => {
   return (
     <>
+      <TitleTask text="Завдання 1 - Профіль соціальної мережі" />
       <Profile
         name={userData.username}
         tag={userData.tag}
@@ -20,7 +22,10 @@ const App = () => {
         image={userData.avatar}
         stats={userData.stats}
       />
+      <TitleTask text="Завдання 2 - Список друзів" />
       <FriendList friends={friends} />
+
+      <TitleTask text="Завдання 3 - Історія транзакцій" />
       <TransactionHistory items={transactions} />
     </>
   );

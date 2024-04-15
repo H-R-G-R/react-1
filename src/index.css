@@ -12,7 +12,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-color: white;
+  /* background-color: white; */
+  background-color: grey;
 }
 
 h1,
